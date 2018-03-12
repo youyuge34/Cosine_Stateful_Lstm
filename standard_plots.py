@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
+# import seaborn as sns
 
-def plt_plot(x=None,y=None,title=""):
+def plt_plot(y=None, x=None,title=""):
     if x==None:
         x = np.arange(len(y))
     plt.figure(figsize=(12,5))
